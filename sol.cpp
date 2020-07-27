@@ -3,7 +3,16 @@
 using namespace std;
 
 void test_case() {
-	
+	int a[1000], n, r;
+	cin >> n >> r;
+	for(int i = 0; i < n; ++i) {
+		cin >> a[i];
+	}
+	for(int i = 0; i < n; ++i) {
+		if(a[i] >= r) cout << "Good boi";
+		else cout << "Bad boi";
+		cout << "\n";
+	}
 }
 
 int main() {
